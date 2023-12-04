@@ -3,93 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Website</title>
+    <title>Hospital Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <h1>Music Website</h1>
+            <h1>Hospital Name</h1>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#classic">Classic</a></li>
-                <li><a href="#melody">Melody</a></li>
-                <li><a href="#pop">Pop</a></li>
-                <li><a href="#hip-hop">Hip Hop</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#patients">Patients</a></li>
+                <li><a href="#medicines">Medicines</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     
-    <section id="home" class="main-section">
-        <h2>Featured Music</h2>
-        <!-- Music albums with images, text, and buttons -->
+    <section id="home">
+        <div class="background-image">
+            <!-- Background image here -->
+        </div>
+        <div class="main-content">
+            <h2>Welcome to Hospital Name</h2>
+            <p>Your trusted healthcare partner</p>
+        </div>
     </section>
 
-    <section id="classic" class="category-section">
-        <h2>Classic Music</h2>
-        <!-- Classic music albums -->
+    <section id="departments">
+        <h2>Departments</h2>
+        <div class="department">
+            <h3>Cardiology</h3>
+            <p>Description of the cardiology department.</p>
+        </div>
+        <div class="department">
+            <h3>Orthopedics</h3>
+            <p>Description of the orthopedics department.</p>
+        </div>
+        <!-- Add more department sections as needed -->
     </section>
 
-    <section id="melody" class="category-section">
-        <h2>Melody Music</h2>
-        <!-- Melody music albums -->
+    <section id="doctors">
+        <h2>Doctors</h2>
+        <div class="doctor">
+            <img src="doctor-image-1.jpg" alt="Doctor 1">
+            <h3>Dr. John Smith</h3>
+            <p>Cardiologist</p>
+            <p>Availability: Monday, Wednesday</p>
+        </div>
+        <div class="doctor">
+            <img src="doctor-image-2.jpg" alt="Doctor 2">
+            <h3>Dr. Sarah Johnson</h3>
+            <p>Orthopedic Surgeon</p>
+            <p>Availability: Tuesday, Thursday</p>
+        </div>
+        <!-- Add more doctor sections as needed -->
     </section>
 
-    <section id="pop" class="category-section">
-        <h2>Pop Music</h2>
-        <!-- Pop music albums -->
+    <section id="patients">
+        <h2>Patients</h2>
+        <!-- Add patient details and search filters here -->
     </section>
 
-    <section id="hip-hop" class="category-section">
-        <h2>Hip Hop Music</h2>
-        <!-- Hip hop music albums -->
+    <section id="medicines">
+        <h2>Medicines</h2>
+        <!-- Add medicine availability and search filters here -->
     </section>
 
-    <section id="languages" class="category-section">
-        <h2>Languages</h2>
-        <ul>
-            <li><a href="#telugu">Telugu</a></li>
-            <li><a href="#hindi">Hindi</a></li>
-            <li><a href="#english">English</a></li>
-            <li><a href="#tamil">Tamil</a></li>
-        </ul>
-    </section>
-
-    <section id="telugu" class="language-section">
-        <h2>Telugu Music</h2>
-        <!-- Telugu music albums -->
-    </section>
-
-    <section id="hindi" class="language-section">
-        <h2>Hindi Music</h2>
-        <!-- Hindi music albums -->
-    </section>
-
-    <section id="english" class="language-section">
-        <h2>English Music</h2>
-        <!-- English music albums -->
-    </section>
-
-    <section id="tamil" class="language-section">
-        <h2>Tamil Music</h2>
-        <!-- Tamil music albums -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <!-- Add contact form and information here -->
     </section>
 
     <footer>
-        <div class="footer-container">
-            <div class="search-bar">
-                <input type="text" placeholder="Search">
-                <button>Search</button>
-            </div>
-            <div class="sorting-filters">
-                <label for="sort-by">Sort By:</label>
-                <select id="sort-by">
-                    <option value="date">Date</option>
-                    <option value="popularity">Popularity</option>
-                </select>
-            </div>
-            <p>&copy; 2023 Music Website. All rights reserved.</p>
-        </div>
+        <p>&copy; 2023 Hospital Name. All rights reserved.</p>
     </footer>
 </body>
 </html>
